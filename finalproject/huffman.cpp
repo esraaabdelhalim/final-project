@@ -2,7 +2,7 @@
 #include <fstream>
 using namespace std;
 
-
+//compression
 
 ofstream myfilr;
 myfile.open("name of file");
@@ -83,7 +83,7 @@ for (int k = 0; k <= size(); k++)
 
 
     struct BSTNode
-{ int code=0;
+{   int code=0;
     int data;
     BSTNode *left;
     BSTNode *right;
@@ -102,5 +102,29 @@ bool find( BSTNode *tree, int data )
 
 
 }
+ 
+
+//decompression
+int p= find(();
+
+   bool isLeaf(BSTNode *tree )
+{
+return node->right && node->left == nullptr;
+}
+ 
+if ( isleaf())
+{
+ if(compare(leaf->data,occs))
+   { if (myfile.is_open())
+      {
+         myfile << "This is a line";
+         myfile << "This is another line";
+         myfile.close();
+       }  
+    }
+}
+
+
+
 
 
