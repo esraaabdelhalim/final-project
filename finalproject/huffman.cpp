@@ -2,12 +2,24 @@
 #include <fstream>
 using namespace std;
 
+
+
 ofstream myfilr;
 myfile.open("name of file");
 myfile >> h;
 ال3 سطور اللي فوق دول تقريبا المفروض يتكتبوا في ال main
         المفروض myfile >>
     h;
+CharCounter cc;
+     cc.process( "poe.txt" );
+
+     for( int k = 0; k < 256; k++ )
+     {
+         int occs = cc.count( k );
+         if( occs > 0 )
+         {
+             cout << char( k ) << " " << occs << endl;
+         }
 ده كده بيقراه من الملف مش عارفه بقي ادخله الqueue ازاي
 
     struct IntegersQueueArray
@@ -67,5 +79,28 @@ for (int k = 0; k <= size(); k++)
                 insert(tree->right, data);
         }
     }
+
+
+
+    struct BSTNode
+{ int code=0;
+    int data;
+    BSTNode *left;
+    BSTNode *right;
+};
+bool find( BSTNode *tree, int data )
+{    if ( isEmpty( tree ))
+        return false;
+
+        else if ( data < tree->data )
+            return code+=0;
+
+        else return code+=1;
+
+   
 }
+
+
+}
+
 
