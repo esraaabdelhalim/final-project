@@ -4,14 +4,8 @@
 
 //compression
 
-<<<<<<< HEAD
     h;
-=======
-ofstream myfilr;
-myfile.open("/home/final-project/finalproject/datafile.txt");
-myfile >> h;
->>>>>>> 5acfc6742e5bd25589f6609cf74ebb343eec8b1d
-CharCounter cc;
+    CharCounter cc;
      cc.process( "/home/final-project/finalproject/datafile.txt" );
 
      for( int k = 0; k < 256; k++ )
@@ -21,14 +15,16 @@ CharCounter cc;
          {
              cout << char( k ) << " " << occs << endl;
          }
- 
+     }
     struct IntegersQueueArray
-{
-    int buffer[10];
-    int capacity = 10;
-    int rear = -1;
-    int front = -1;
-};
+    {
+        int buffer[10];
+        int capacity = 10;
+        int rear = -1;
+        int front = -1;
+    };
+    
+    
 
 int size(IntegersQueueArray &qu)
 {
@@ -106,11 +102,14 @@ bool find( BSTNode *tree, int data )
  
 
 //decompression
+
+void decompress ( )
+{
 int p= find(();
 
-   bool isLeaf(BSTNode *tree )
+bool isLeaf(BSTNode *tree )
 {
-return node->right && node->left == nullptr;
+   return node->right && node->left == nullptr;
 }
  
 if ( isleaf())
@@ -122,6 +121,7 @@ if ( isleaf())
          myfile.close();
        }  
     }
+}
 }
 
 

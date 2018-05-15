@@ -4,8 +4,11 @@
 
 
 int main ()
-
 {
+
+    ofstream myfilr;
+    myfile.open ("/home/final-project/finalproject/datafile.txt") ;
+    myfile >> h;
 
   cout << " 1.Compress file " << endl ;
   cout << " 2.Decompress file " << endl ;
@@ -26,24 +29,13 @@ int main ()
       cout << " error choice " << endl ;
   }
 
-
-
-
-ofstream myfilr;
-myfile.open("datafile.txt");
-myfile >> h;
-
-
-
-//  count للدالة اللي بتعمل callالمفروض نعمل 
-
-void selectionSort( );
-
-//المفروض يبقي ف دالة بتجمع اصغر رقمين 
-
-void enqueue( NumbersQueueLL &queue ,  ناتج دالة الجمع );
-void selectionSort( );
-void insert(BSTNode * &tree, ناتج دالة الجمع);
-bool find();
-
 }
+
+
+ void compress ( )
+{
+    min ( arraymin ) ;
+    insert(BSTNode * &tree, z);
+    find ( ) ;
+}
+
