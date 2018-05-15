@@ -1,14 +1,9 @@
- #include <iostream>
+#include <iostream>
 #include <fstream>
-using namespace std;
+
 
 //compression
 
-ofstream myfilr;
-myfile.open("name of file");
-myfile >> h;
-ال3 سطور اللي فوق دول تقريبا المفروض يتكتبوا في ال main
-        المفروض myfile >>
     h;
 CharCounter cc;
      cc.process( "poe.txt" );
@@ -82,22 +77,23 @@ for (int k = 0; k <= size(); k++)
 
 
 
-    struct BSTNode
-{   int code=0;
-    int data;
-    BSTNode *left;
-    BSTNode *right;
-};
+    struct BSTNode 
+    {
+        int code=0;
+        int data;
+        BSTNode *left;
+        BSTNode *right;
+    };
+
 bool find( BSTNode *tree, int data )
-{    if ( isEmpty( tree ))
+{
+    if ( isEmpty( tree ))
         return false;
 
         else if ( data < tree->data )
             return code+=0;
 
         else return code+=1;
-
-   
 }
 
 
