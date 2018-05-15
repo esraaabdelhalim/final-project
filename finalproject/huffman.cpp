@@ -4,9 +4,15 @@
 
 //compression
 
+<<<<<<< HEAD
     h;
+=======
+ofstream myfilr;
+myfile.open("/home/final-project/finalproject/datafile.txt");
+myfile >> h;
+>>>>>>> 5acfc6742e5bd25589f6609cf74ebb343eec8b1d
 CharCounter cc;
-     cc.process( "poe.txt" );
+     cc.process( "/home/final-project/finalproject/datafile.txt" );
 
      for( int k = 0; k < 256; k++ )
      {
@@ -15,8 +21,7 @@ CharCounter cc;
          {
              cout << char( k ) << " " << occs << endl;
          }
-ده كده بيقراه من الملف مش عارفه بقي ادخله الqueue ازاي
-
+ 
     struct IntegersQueueArray
 {
     int buffer[10];
@@ -113,8 +118,7 @@ if ( isleaf())
  if(compare(leaf->data,occs))
    { if (myfile.is_open())
       {
-         myfile << "This is a line";
-         myfile << "This is another line";
+         myfile << "/home/final-project/finalproject/datafile.txt";
          myfile.close();
        }  
     }
