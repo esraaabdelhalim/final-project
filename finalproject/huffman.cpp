@@ -5,13 +5,10 @@ using namespace std;
 //compression
 
 ofstream myfilr;
-myfile.open("name of file");
+myfile.open("/home/final-project/finalproject/datafile.txt");
 myfile >> h;
-ال3 سطور اللي فوق دول تقريبا المفروض يتكتبوا في ال main
-        المفروض myfile >>
-    h;
 CharCounter cc;
-     cc.process( "poe.txt" );
+     cc.process( "/home/final-project/finalproject/datafile.txt" );
 
      for( int k = 0; k < 256; k++ )
      {
@@ -20,8 +17,7 @@ CharCounter cc;
          {
              cout << char( k ) << " " << occs << endl;
          }
-ده كده بيقراه من الملف مش عارفه بقي ادخله الqueue ازاي
-
+ 
     struct IntegersQueueArray
 {
     int buffer[10];
@@ -117,8 +113,7 @@ if ( isleaf())
  if(compare(leaf->data,occs))
    { if (myfile.is_open())
       {
-         myfile << "This is a line";
-         myfile << "This is another line";
+         myfile << "/home/final-project/finalproject/datafile.txt";
          myfile.close();
        }  
     }
